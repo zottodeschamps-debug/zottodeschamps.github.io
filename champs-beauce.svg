@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1125" role="img" aria-labelledby="title desc">
+  <title id="title">Les plaines de Beauce</title>
+  <desc id="desc">Illustration de champs de blé et de colza sous un ciel du soir.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b9a982"/><stop offset=".55" stop-color="#ead39a"/><stop offset="1" stop-color="#f1d78c"/></linearGradient>
+    <linearGradient id="field" x2="0" y2="1"><stop stop-color="#ba913e"/><stop offset="1" stop-color="#66512d"/></linearGradient>
+    <linearGradient id="rape" x2="0" y2="1"><stop stop-color="#e2bc4b"/><stop offset="1" stop-color="#8e7435"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1000" height="1125" fill="url(#sky)"/>
+  <circle cx="740" cy="260" r="90" fill="#fff0bd" opacity=".64" filter="url(#soft)"/>
+  <circle cx="740" cy="260" r="46" fill="#fff0c5" opacity=".72"/>
+  <path d="M0 510 Q180 445 360 498 T720 486 T1000 477 V700 H0Z" fill="#9d8c5f" opacity=".56"/>
+  <path d="M0 585 Q210 500 440 570 T1000 530 V1125 H0Z" fill="url(#field)"/>
+  <path d="M0 640 Q220 574 430 624 T1000 592 V790 Q730 719 470 785 T0 790Z" fill="url(#rape)"/>
+  <path d="M0 805 Q270 723 495 811 T1000 775 V1125 H0Z" fill="#8b6d34"/>
+  <g fill="none" stroke="#e7c66b" stroke-width="7" opacity=".75">
+    <path d="M70 1125 Q190 900 250 650"/><path d="M125 1125 Q245 900 290 650"/><path d="M184 1125 Q305 900 330 650"/>
+    <path d="M950 1125 Q820 890 765 646"/><path d="M890 1125 Q770 890 725 646"/><path d="M825 1125 Q715 890 685 646"/>
+    <path d="M350 1125 Q445 950 477 790"/><path d="M420 1125 Q495 960 516 790"/><path d="M600 1125 Q560 960 542 790"/>
+  </g>
+  <g stroke="#e9d18c" stroke-width="4" fill="#ecd27f" opacity=".92">
+    <path d="M175 884 Q142 840 139 794 M175 884 Q185 830 214 800 M175 884 Q158 834 108 825 M175 884 Q194 848 240 842"/>
+    <path d="M824 850 Q794 805 790 758 M824 850 Q839 800 870 777 M824 850 Q806 801 758 787 M824 850 Q850 815 893 811"/>
+    <path d="M300 735 Q277 700 277 668 M300 735 Q312 699 335 681 M300 735 Q283 703 250 694"/>
+  </g>
+  <g fill="#f5df95" opacity=".85"><circle cx="108" cy="566" r="5"/><circle cx="153" cy="552" r="4"/><circle cx="199" cy="565" r="5"/><circle cx="833" cy="550" r="5"/><circle cx="878" cy="536" r="4"/><circle cx="928" cy="551" r="5"/><circle cx="445" cy="583" r="4"/><circle cx="494" cy="590" r="5"/></g>
+  <rect width="1000" height="1125" fill="none" stroke="#f3e4c2" stroke-width="22" opacity=".18"/>
+</svg>

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#38271b">
+  <meta name="description" content="Le Colzotto des Champs, un brouet généreux inspiré des terres de Beauce. Découvrez son histoire et sa recette paysanne.">
+  <title>Le Colzotto des Champs — Le brouet des terres beauceronnes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Crimson+Pro:wght@400;500;600;700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Le Colzotto des Champs, accueil"><span class="brand-mark" aria-hidden="true">✳</span><span>Le Colzotto <small>des Champs</small></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation"><span></span><span></span><span></span><span class="sr-only">Ouvrir le menu</span></button>
+    <nav id="navigation" class="nav" aria-label="Navigation principale">
+      <a href="#histoire">L’histoire</a><a href="#recette">La recette</a><a href="#festin">À table</a>
+      <a class="nav-seal" href="#recette">✦ <span>À découvrir</span></a>
+    </nav>
+  </header>
+  <main id="contenu">
+    <section class="hero" id="accueil" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="Brouet rustique servi dans une écuelle de terre cuite sur une table ancienne"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Carnet de cuisine beauceron <span></span></p>
+        <h1 id="hero-title">Le Colzotto<br><i>des Champs</i></h1>
+        <p class="hero-subtitle">Le brouet des terres beauceronnes</p>
+        <div class="ornament" aria-hidden="true"><span></span> ❧ <span></span></div>
+        <p class="hero-motto">Le blé nourrit, la terre offre,<br>le colza dore.</p>
+        <a class="button button-gold" href="#recette">Découvrir la recette <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-caption">Une marmite, les dons de la terre et le temps de mijoter</div>
+      <div class="hero-stamp" aria-hidden="true"><span>Beauce</span><b>✳</b><span>à table</span></div>
+    </section>
+
+    <section class="story section-pad" id="histoire" aria-labelledby="story-title">
+      <div class="section-kicker reveal">✳ &nbsp; Héritage des plaines &nbsp; ✳</div>
+      <div class="story-grid">
+        <div class="story-image reveal"><img src="champs-beauce.svg" alt="Illustration des champs de blé et de colza de Beauce sous la lumière du soir" loading="lazy"><span class="image-note">Les campagnes de Beauce</span></div>
+        <div class="story-copy reveal">
+          <p class="eyebrow ink">Au fil des saisons</p>
+          <h2 id="story-title">Une recette née<br>des terres de <i>Beauce</i></h2>
+          <div class="ornament ink-ornament" aria-hidden="true"><span></span> ❧ <span></span></div>
+          <p>Inspiré des traditions paysannes médiévales, le Colzotto des Champs est un plat généreux imaginé autour des richesses agricoles de la Beauce.</p>
+          <p>Dans les campagnes, les céréales, les légumes et les légumineuses constituaient une base essentielle de l’alimentation.</p>
+          <p>Ce brouet épais, mijoté lentement dans un chaudron, rend hommage à ces traditions et aux paysages dorés des plaines beauceronnes.</p>
+          <p class="origin-note"><span aria-hidden="true">✧</span> Le Colzotto est une création contemporaine inspirée du Moyen Âge, et non une recette historique authentifiée.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="recipe section-pad" id="recette" aria-labelledby="recipe-title">
+      <div class="recipe-heading reveal"><p class="eyebrow">Le savoir-faire de la maisonnée</p><h2 id="recipe-title">La recette du <i>Colzotto</i></h2><div class="ornament" aria-hidden="true"><span></span> ❧ <span></span></div><p>Une marmite ample, un feu doux et les trésors du jardin.</p></div>
+      <div class="recipe-meta reveal" aria-label="Informations pratiques"><div><span class="meta-icon" aria-hidden="true">♧</span><b><span id="servings-label">4</span> personnes</b></div><div><span class="meta-icon" aria-hidden="true">◷</span><b>Préparation <small>15 min</small></b></div><div><span class="meta-icon" aria-hidden="true">♨</span><b>Cuisson <small>45–60 min</small></b></div><div><span class="meta-icon" aria-hidden="true">✧</span><b>Difficulté <small>Facile</small></b></div></div>
+      <div class="recipe-tools"><div class="serving-control" aria-label="Ajuster le nombre de personnes"><span>À votre tablée</span><button type="button" id="servings-minus" aria-label="Diminuer le nombre de personnes">−</button><output id="servings-output" aria-live="polite">4</output><button type="button" id="servings-plus" aria-label="Augmenter le nombre de personnes">+</button><span>personnes</span></div><button class="button button-outline print-button" type="button" id="print-recipe"><span aria-hidden="true">⌑</span> Imprimer la recette</button></div>
+      <div class="recipe-layout">
+        <aside class="ingredients-card reveal" aria-labelledby="ingredients-title">
+          <div class="card-heading"><span class="card-flower" aria-hidden="true">✿</span><div><p class="eyebrow ink">Du jardin et du grenier</p><h3 id="ingredients-title">Les ingrédients</h3></div></div>
+          <p class="ingredient-hint">Cochez les provisions déjà rassemblées.</p>
+          <ul class="ingredients-list">
+            <li><label><input type="checkbox"><span class="checkmark" aria-hidden="true"></span><span class="ingredient-name">Grains de blé concassés</span><span class="amount" data-base="200" data-unit="g">200 g</span></label></li>
+            <li><label><input type="checkbox"><span class="checkmark" aria-hidden="true"></span><span class="ingredient-name">Pois cassés</span><span class="amount" data-base="100" data-unit="g">100 g</span></label></li>
+            <li><label><input type="checkbox"><span class="checkmark" aria-hidden="true"></span><span class="ingredient-name">Huile de colza</span><span class="amount" data-base="3" data-unit="cuillères à soupe">3 cuillères à soupe</span></label></li>
+            <li><label><input type="checkbox"><span class="checkmark" aria-hidden="true"></span><span class="ingredient-name">Oignons</span><span class="amount" data-base="2" data-unit="">2</span></label></li>
+            <li><label><input type="checkbox"><span class="checkmark" aria-hidden="true"></span><span class="ingredient-name">Poireaux</span><span class="amount" data-base="2" data-unit="">2</span></label></li>
+            <li><label><input type="checkbox"><span class="checkmark" aria-hidden="true"></span><span class="ingredient-name">Carottes</span><span class="amount" data-base="2" data-unit="">2</span></label></li>
+            <li><label><input type="checkbox"><span class="checkmark" aria-hidden="true"></span><span class="ingredient-name">Navet</span><span class="amount" data-base="1" data-unit="">1</span></label></li>
+            <li><label><input type="checkbox"><span class="checkmark" aria-hidden="true"></span><span class="ingredient-name">Ail</span><span class="amount" data-base="2" data-unit="gousses">2 gousses</span></label></li>
+            <li><label><input type="checkbox"><span class="checkmark" aria-hidden="true"></span><span class="ingredient-name">Bouillon de légumes</span><span class="amount" data-base="1" data-unit="litre">1 litre</span></label></li>
+            <li><label><input type="checkbox"><span class="checkmark" aria-hidden="true"></span><span class="ingredient-name">Thym et laurier</span><span class="amount flexible">Selon goût</span></label></li>
+            <li><label><input type="checkbox"><span class="checkmark" aria-hidden="true"></span><span class="ingredient-name">Sel et poivre</span><span class="amount flexible">Selon goût</span></label></li>
+            <li><label><input type="checkbox"><span class="checkmark" aria-hidden="true"></span><span class="ingredient-name">Moutarde ancienne</span><span class="amount" data-base="1" data-unit="petite cuillère">1 petite cuillère</span></label></li>
+          </ul>
+          <div class="ingredient-progress" aria-live="polite"><span class="progress-track"><span id="progress-fill"></span></span><span id="progress-label">0 / 12 préparés</span></div>
+        </aside>
+        <div class="steps" aria-label="Étapes de préparation">
+          <article class="step reveal"><div class="step-number">I</div><div><p class="eyebrow ink">Mise en place</p><h3>Préparer les céréales</h3><p>Concasser grossièrement les grains de blé si nécessaire et rincer les pois cassés. Les pois peuvent être mis à tremper à l’avance pour faciliter leur cuisson.</p></div></article>
+          <article class="step reveal"><div class="step-number">II</div><div><p class="eyebrow ink">Le premier parfum</p><h3>Faire revenir les légumes</h3><p>Dans une grande marmite ou un chaudron, verser <span class="scaled" data-base="3" data-unit="cuillères à soupe">trois cuillères à soupe</span> d’huile de colza. Ajouter les oignons, l’ail, les poireaux et les carottes coupés en morceaux.</p></div></article>
+          <article class="step reveal"><div class="step-number">III</div><div><p class="eyebrow ink">Le grain entre en scène</p><h3>Ajouter les grains</h3><p>Ajouter le blé concassé et les pois cassés. Mélanger doucement pour imprégner les ingrédients d’huile.</p></div></article>
+          <article class="step reveal"><div class="step-number">IV</div><div><p class="eyebrow ink">Patience au coin du feu</p><h3>Le long mijotage</h3><p>Verser <span class="scaled" data-base="1" data-unit="litre">un litre</span> de bouillon de légumes. Ajouter le navet, le thym et le laurier.</p><p>Laisser mijoter à feu doux pendant 45 à 60 minutes en remuant régulièrement. Ajouter un peu d’eau chaude si nécessaire jusqu’à ce que les céréales et les pois soient tendres.</p></div></article>
+          <article class="step reveal"><div class="step-number">V</div><div><p class="eyebrow ink">Le secret du cuisinier</p><h3>La touche du maître cuisinier</h3><p>Incorporer <span class="scaled" data-base="1" data-unit="petite cuillère">une petite cuillère</span> de moutarde ancienne. Saler et poivrer selon le goût.</p><p>Le résultat doit être un brouet épais, rustique et généreux.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="feast" id="festin" aria-labelledby="feast-title">
+      <div class="feast-image reveal"><img src="Ragoût rustique aux légumes et céréales.png" alt="Soupe paysanne épaisse et dorée, garnie d’herbes fraîches dans une écuelle rustique" loading="lazy"></div>
+      <div class="feast-copy reveal"><p class="eyebrow">À la lueur des chandelles</p><h2 id="feast-title">Un festin aux<br>couleurs de <i>Beauce</i></h2><div class="ornament" aria-hidden="true"><span></span> ❧ <span></span></div><p>Du blé tendre, des pois fondants et les légumes du potager réunis dans une cuillerée dorée. À partager sans hâte, tout juste sortie du chaudron.</p><span class="feast-caption">Servir bien chaud, avec un bon pain de campagne</span></div>
+    </section>
+
+    <section class="motto section-pad" aria-label="Devise du Colzotto"><div class="wheat-art" aria-hidden="true">❧</div><p class="eyebrow">La devise de la maisonnée</p><blockquote>« Le blé nourrit,<br>la terre offre,<br><i>le colza dore.</i> »</blockquote><div class="ornament ink-ornament" aria-hidden="true"><span></span> ✿ <span></span></div><span class="motto-seal" aria-hidden="true">✳</span></section>
+  </main>
+  <footer class="site-footer"><div class="footer-flourish" aria-hidden="true">❧ &nbsp; ✳ &nbsp; ❧</div><p><strong>Le Colzotto des Champs</strong> <span>—</span> Une création gourmande inspirée des terres de Beauce.</p><a href="#accueil" class="back-top">Remonter au début ↑</a></footer>
+</body>
+</html>
