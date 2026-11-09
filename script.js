@@ -22,6 +22,7 @@
     servingsOutput.value = servings;
     servingsOutput.textContent = servings;
     servingsLabel.textContent = servings;
+    document.querySelector('#prep-time').textContent = Math.max(1, Math.round(15 * servings / 4));
     amounts.forEach((item) => {
       const scaled = Number(item.dataset.base) * servings / 4;
       item.textContent = formatAmount(scaled, item.dataset.unit);
